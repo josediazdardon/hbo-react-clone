@@ -12,7 +12,7 @@ const PosterView= (props) => {
       <div className="poster-view__thumbnails">
         {loopComp(
           <div className="poster-view__thumbnail">
-            <img src="https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" />
+            <image src="https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" />
             <div className="poster-view__top-layer">
               <i className="fas fa-play" />
             </div>

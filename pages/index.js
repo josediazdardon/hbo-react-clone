@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="login-user__form">
         <div className="login-user__user-box">
-          <img className="login-user__user-img" src="https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=f05c14dd4db49f08a789e6449604c490"/>
+          <image className="login-user__user-image" src="https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=f05c14dd4db49f08a789e6449604c490"/>
         <div className="login-user__user-name">Brian Dang</div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const ForYouList = (props) => {
             <div className="foryou-list__thumbnails">
                 {loopComp(
                     ( <div className="foryou-list__thumbnail">
-                     <img 
+                     <image 
                       src="https://www.denofgeek.com/wp-content/uploads/2016/02/fast-9-poster-cast-universal.jpg?fit=1200%2C680"
                      />
                      <div className="foryou-list__top-layer">

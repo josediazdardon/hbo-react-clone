@@ -23,7 +23,7 @@ const SearchModal = (props) => {
         <div className="search-modal__thumbnails">
           {loopComp(
             <div className="search-modal__thumbnail">
-              <img src="https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" />
+              <image src="https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" />
               <div className="search-modal__top-layer">
                 <i className="fas fa-play" />
               </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const Account = (props) => {
   return (
     <div className="account account--active">
@@ -5,7 +6,7 @@ const Account = (props) => {
         <div className="account__title">My List</div>
         <div className="account__watch-list">
           <div className="account__watch-video">
-            <img src="https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" />
+            <image src="https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" />
             <div className="account__watch-overlay">
               <div className="account__watch-buttons">
                 <div className="account__watch-circle">
@@ -23,16 +24,16 @@ const Account = (props) => {
    <div className="account__menu">
     <ul className="account__main">
         <li>
-            <a href="/" className="active">My List</a>
+            <Link href="/" className="active">My List</Link>
         </li>
     </ul>
     <div className="side-nav__divider" />
     <ul className="account__main">
         <li>
-            <a href="/">My Account</a>
+            <Link href="/">My Account</Link>
         </li>
         <li>
-            <a href="/">Sign Out</a>
+            <Link href="/">Sign Out</Link>
         </li>
     </ul>
    </div>
